@@ -1,7 +1,9 @@
 body {
     font-family: Arial, sans-serif;
     color: rgb(44, 255, 146);
-    background-color: #484848;
+    /* background-color: #484848; */
+    background-image: url("images/superhero-background.webp");
+    opacity: 0.95;
     margin: 0;
     padding: 0;
     display: flex;
@@ -45,6 +47,7 @@ textarea {
     border: 1px solid #ddd;
     border-radius: 4px;
     font-size: 1rem;
+    padding: 3px;
 }
 
 textarea {
@@ -77,6 +80,7 @@ button:hover {
     color: #3c763d;
     padding: 2rem;
     border-radius: 10px;
+    border: solid 1px #3c763d;
 }
 
 .hidden {

@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 successMessage.classList.remove('hidden');
                 submitBtn.disabled = false;
                 submitBtn.textContent = 'Submit Application';
-            }, 1500); // Simulating a delay for form submission
+            }, 1000); // Simulating a delay for form submission
         }
     });
 
