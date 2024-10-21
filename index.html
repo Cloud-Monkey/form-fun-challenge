@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Superhero League Application</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Superhero League Application</h1>
+        <form id="superheroForm">
+            <div class="form-group">
+                <label for="realName">Real Name:</label>
+                <input type="text" id="realName" name="realName" required>
+            </div>
+            <div class="form-group">
+                <label for="superheroAlias">Superhero Alias:</label>
+                <input type="text" id="superheroAlias" name="superheroAlias" required>
+            </div>
+            <div class="form-group">
+                <label for="powers">Powers/Abilities:</label>
+                <textarea id="powers" name="powers" required></textarea>
+            </div>
+            <div class="form-group">
+                <label for="sidekick">Sidekick Name (if any):</label>
+                <input type="text" id="sidekick" name="sidekick">
+            </div>
+            <div class="form-group">
+                <label for="whyChooseYou">Why should we choose you?</label>
+                <textarea id="whyChooseYou" name="whyChooseYou" required></textarea>
+            </div>
+            <button type="submit" id="submitBtn">Submit Application</button>
+        </form>
+    </div>
+    <div id="successMessage" class="hidden">
+        <h2>Application Submitted Successfully!</h2>
+        <p>Thank you for applying to the Superhero League. We'll review your application and contact you soon.</p>
+        <button id="newApplicationBtn">Submit Another Application</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
